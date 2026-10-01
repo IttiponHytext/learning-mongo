@@ -84,3 +84,4 @@ mongo-learning/
 - **`connect ECONNREFUSED`** → ยังไม่ได้ `npm run db:up` หรือ Docker Desktop ยังไม่เปิด
 - **Transaction error / "not a replica set"** → รอ container ขึ้นสถานะ healthy (`docker ps`) แล้วลองใหม่
 - **port 27017 ถูกใช้อยู่** → อาจมี MongoDB จาก Homebrew รันอยู่ ให้ `brew services stop mongodb-community`
+# learning-mongo

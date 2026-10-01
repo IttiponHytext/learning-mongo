@@ -1,0 +1,29 @@
+{
+  "name": "mongo-learning",
+  "version": "1.0.0",
+  "description": "โปรเจคฝึก MongoDB ด้วย Node.js ทีละบท",
+  "type": "module",
+  "scripts": {
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "db:shell": "docker exec -it mongo-learning mongosh bookstore",
+    "seed": "node seed/seed.js",
+    "l1": "node lessons/01-connect.js",
+    "l2": "node lessons/02-insert.js",
+    "l3": "node lessons/03-find.js",
+    "l4": "node lessons/04-update.js",
+    "l5": "node lessons/05-delete.js",
+    "l6": "node lessons/06-indexes.js",
+    "l7": "node lessons/07-aggregation.js",
+    "l8": "node lessons/08-relationships.js",
+    "l9": "node lessons/09-transactions.js",
+    "l10": "node lessons/10-mongoose.js",
+    "ex": "node exercises/exercises.js",
+    "ex:solutions": "node exercises/solutions/solutions.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.0"
+  }
+}
